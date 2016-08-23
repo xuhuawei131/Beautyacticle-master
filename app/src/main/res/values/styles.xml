@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.DesignDemo">
+        <item name="android:windowBackground">@color/ls_item</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:actionMenuTextColor">@color/material_deep_teal_500</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ActTheme" parent="Base.Theme.DesignDemo">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="Act" parent="Base.Theme.DesignDemo">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ff009688</item>
+        <item name="colorPrimaryDark">#ff009688</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+
+    <style name="FontActicle">
+        <item name="fontPath">fonts/Roboto-Light.ttf</item>
+    </style>
+
+    <style name="FontComm">
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+
+    <style name="FontFun">
+        <item name="fontPath">fonts/fun_font.TTF</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

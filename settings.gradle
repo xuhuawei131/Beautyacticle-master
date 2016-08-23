@@ -1,0 +1,5 @@
+include(':app')
+include (':libraries:SwipeBackLayoutLibary')
+include (':libraries:CommLib')
+include (':libraries:MeterialSettingLib')
+include (':libraries:multi-image-selector')
